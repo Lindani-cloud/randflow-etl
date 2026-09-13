@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local configuration
+.env
+
+# Generated data and reports
+data/*.db
+data/*.sqlite
+data/*.csv
+reports/*.png
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
