@@ -63,5 +63,5 @@ def test_transform_rates_reuses_validation_rules():
         },
     }
 
-    with pytest.raises(ValueError, match="Missing required target currencies"):
+    with pytest.raises(ValueError, match="Missing required rates: GBP"):
         transform_rates(payload)
