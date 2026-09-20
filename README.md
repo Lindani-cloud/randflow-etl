@@ -6,6 +6,10 @@ rates into analysis-ready records, and loads them into SQLite.
 
 ## Pipeline
 
+## WeThinkCode verification
+
+`WTC-LP385CTD`
+
 ```mermaid
 flowchart LR
     API[Frankfurter API] --> Extract
